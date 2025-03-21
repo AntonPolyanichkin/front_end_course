@@ -37,7 +37,8 @@ p {
 .culture-information {
   color: rgb(172, 172, 30);
 }
-.list-with-text > li {
+/* --------------------------- */
+/* .list-with-text > li {
   color: red;
 }
 .list-with-text > li ~ li {
@@ -57,4 +58,25 @@ p {
 }
 .list-with-text > li ul li > span {
   color: #a0f0fc;
+} */
+.list-with-text > li {
+  color: red;
+}
+.list-with-text > li ~ li {
+  color: green;
+}
+.list-with-text > li > ul > li {
+  color: blue;
+}
+.list-with-text > li > ul li ~ li {
+  color: orange;
+}
+.list-with-text > li > ul li > ol li {
+	color: #4597f7;
+}
+.list-with-text > li > ul li > ol li ~ li{
+	color: #5d5d5d;
+}
+.list-with-text > li > ul >li > span{
+	color: #a0f0fc;
 }
