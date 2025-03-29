@@ -2,88 +2,183 @@
 @import url("fonts.css");
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  background-color: #333;
+  color: white;
 }
-.second-section,
-.fifth-section {
-  text-align: right;
+.header {
+  background-color: #5e5372;
+  margin-bottom: 30px;
 }
-.third-section,
-.sixth-section {
-  text-align: center;
-}
-.nav li {
-  font-style: italic;
-  line-height: 2.3;
+.head-title {
+  font-size: 30px;
   font-weight: 800;
-  text-align: center;
-  color: gray;
-  text-shadow: 3px 3px 20px black;
 }
-h1,
-h2 {
+
+.main {
+  margin-bottom: 30px;
+}
+.header,
+.footer {
+  text-align: center;
+  padding: 30px;
+}
+.first-task-container {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 0;
+  padding: 40px;
+  background-color: #ebe692;
+  margin-bottom: 30px;
+}
+.first-task-item {
+  background-color: #5e5372;
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.first-task-items {
+  display: inline-block;
+  max-width: 100px;
+  width: 100%;
+  font-size: 16px;
+  background-color: #34b5a4;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.last-item {
+  margin-bottom: 0; /* Прибираю відступ у відповідності до набутих знань*/
+}
+.second-task-container {
+  background-color: rgba(255, 255, 255, 0.785);
+  height: 300px; /* спеціально обмежив, щоб використати overflow: hidden;*/
+  padding: 30px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.car-exhibition-title {
+  font-size: 20px;
+  color: #333;
+  text-decoration: underline;
+  margin-bottom: 60px; /* Зроблено спеціально, щоб використати overflow: hidden;*/
+}
+.second-task-item {
+  min-height: 200px;
+  padding: 30px;
+  background-color: rgb(191, 247, 247);
+}
+.items-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.second-task-items {
+  height: 100px;
+  width: 170px; /* тут я обмежую висоту та ширину спеціально*/
+  margin-right: 25px;
+}
+.third-task-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: beige;
+  color: black;
+  margin-bottom: 30px;
+}
+.third-task-container span {
+  display: inline-block;
+  max-width: 400px;
+}
+.car-png {
+  width: 300px;
+  vertical-align: top;
+}
+.layout {
+  background-color: #231f8b;
   font-family: "CircularStd", sans-serif;
-  font-weight: 800;
-  text-decoration: underline;
-  text-decoration-color: red;
-  text-decoration-thickness: 2px;
+  padding: 112px 0;
 }
-h1 {
-  font-size: 25px;
-  text-align: center;
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
 }
-h2 {
-  font-size: 20px;
-  word-spacing: 5px;
+.section-head {
+  max-width: 765px;
+  min-height: 140px;
+  margin-bottom: 70px;
 }
-.main-section > p span {
-  text-transform: capitalize;
-  text-shadow: 3px 3px 20px black;
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #5a54f2;
+  font-weight: 700;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
 }
-abbr {
-  text-decoration: none;
-  font-weight: 800;
-  letter-spacing: 5px;
+.main-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
 }
-.second-section p {
-  font-weight: 800;
+.content {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
 }
-.second-section p span {
-  text-transform: capitalize;
-  text-shadow: 3px 3px 20px black;
+.cards {
+  font-size: 0px;
 }
-.second-section ul li {
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: red;
+.card {
+  display: inline-block;
+  max-width: 230px;
+  padding: 35px 40px;
+  background-color: #fff;
+  vertical-align: top;
+  margin-right: 30px;
 }
-.third-section li {
-  text-decoration: underline;
-  text-decoration-color: red;
+.bottom-card {
+  margin-top: 48px;
 }
-.third-section p span {
-  color: red;
+.card-img {
+  margin-bottom: 20px;
 }
-.forth-section h3 {
-  color: red;
-  text-transform: uppercase;
-  font-weight: 800;
-  text-shadow: 3px 3px 20px black;
-  letter-spacing: 5px;
-}
-.fifth-section ul > li {
-  font-weight: 800;
-}
-.article {
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
+.card-title {
+  color: #252b42;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 1.5;
-  color:#808080;
-  word-spacing: normal;
+  margin-bottom: 20px;
 }
-.arhicle-title {
-  color: #1a1a1a;
-  font-size: 20px;
-  font-weight: 500;
-  text-decoration: none;
+
+.another-color {
+  background-color: #5a54f2;
+}
+.another-color .card-title,
+.another-color .card-text {
+  color: #fff;
+}
+.another-color .card-decoration {
+  background-color: #fff;
+}
+.card-decoration {
+  width: 50px;
+  height: 2px;
+  background-color: #e74040;
+  margin-bottom: 20px;
+}
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #737373;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+.footer {
+  background-color: #34b5a4;
 }
