@@ -105,7 +105,6 @@ body {
 }
 .section-head {
   max-width: 765px;
-  min-height: 140px;
   margin-bottom: 70px;
 }
 .title {
@@ -132,14 +131,21 @@ body {
 }
 .cards {
   font-size: 0px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
-.card {
+.card-content-container{
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 25%;
+}
+.card-content {
   display: inline-block;
-  max-width: 230px;
+  width: 100%;
   padding: 35px 40px;
   background-color: #fff;
   vertical-align: top;
-  margin-right: 30px;
 }
 .bottom-card {
   margin-top: 48px;
