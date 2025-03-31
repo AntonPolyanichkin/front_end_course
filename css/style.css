@@ -134,18 +134,16 @@ body {
   margin-left: -15px;
   margin-right: -15px;
 }
-.card-content-container{
-	display: inline-block;
-	padding-left: 15px;
-	padding-right: 15px;
-	max-width: 25%;
+.card-content-container {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  vertical-align: top;
 }
 .card-content {
-  display: inline-block;
-  width: 100%;
   padding: 35px 40px;
   background-color: #fff;
-  vertical-align: top;
 }
 .bottom-card {
   margin-top: 48px;
