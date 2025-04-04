@@ -160,8 +160,8 @@ body {
   padding: 20px 15px;
   font-family: "Montserrat", sans-serif;
   font-size: 0;
-  background: url(../img/v-7.png) no-repeat center 46px,
-    url(../img/v-8.png) no-repeat center 325px;
+  background: url(../img/v-7.png) no-repeat center 50px,
+    url(../img/v-8.png) no-repeat center 340px;
 }
 .hydra-container .content-container {
   display: inline-block;
@@ -169,6 +169,11 @@ body {
   vertical-align: middle;
 }
 .hydra-img {
+  width: 524px;
+  height: 557px;
+  border-radius: 240px 100px;
+  background: #a3a3a3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 100%;
   margin-right: 110px;
 }
