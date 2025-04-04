@@ -1,188 +1,278 @@
 @import url("reset.css");
-@import url("fonts.css");
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #333;
-  color: white;
-}
-.header {
-  background-color: #5e5372;
-  margin-bottom: 30px;
-}
-.head-title {
-  font-size: 30px;
-  font-weight: 800;
-}
-
-.main {
-  margin-bottom: 30px;
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
 }
 .header,
 .footer {
-  text-align: center;
-  padding: 30px;
-}
-.first-task-container {
-  max-width: 500px;
-  margin: 0 auto;
-  font-size: 0;
-  padding: 40px;
-  background-color: #ebe692;
-  margin-bottom: 30px;
-}
-.first-task-item {
   background-color: #5e5372;
-  max-width: 50%;
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px;
+  padding: 40px;
+  font-size: 30px;
+  color: white;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
-.first-task-items {
-  display: inline-block;
-  max-width: 100px;
-  width: 100%;
-  font-size: 16px;
-  background-color: #34b5a4;
-  padding: 5px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-.last-item {
-  margin-bottom: 0; /* Прибираю відступ у відповідності до набутих знань*/
-}
-.second-task-container {
-  background-color: rgba(255, 255, 255, 0.785);
-  height: 300px; /* спеціально обмежив, щоб використати overflow: hidden;*/
-  padding: 30px;
-  overflow: hidden;
-  margin-bottom: 30px;
-  text-align: center;
-}
-.car-exhibition-title {
-  font-size: 20px;
-  color: #333;
-  text-decoration: underline;
-  margin-bottom: 60px; /* Зроблено спеціально, щоб використати overflow: hidden;*/
-}
-.second-task-item {
-  min-height: 200px;
-  padding: 30px;
-  background-color: rgb(191, 247, 247);
-}
-.items-container {
-  width: 50%;
-  margin: 0 auto;
-}
-.second-task-items {
-  height: 100px;
-  width: 170px; /* тут я обмежую висоту та ширину спеціально*/
-  margin-right: 25px;
-}
-.third-task-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: beige;
-  color: black;
+.header {
   margin-bottom: 30px;
 }
-.third-task-container span {
-  display: inline-block;
-  max-width: 400px;
+body {
+  background-color: gray;
 }
-.car-png {
-  width: 300px;
-  vertical-align: top;
-}
-.layout {
-  background-color: #231f8b;
-  font-family: "CircularStd", sans-serif;
-  padding: 112px 0;
+.section {
+  margin-bottom: 30px;
 }
 .container {
-  max-width: 1050px;
-  margin: 0 auto;
-}
-.section-head {
-  max-width: 765px;
-  margin-bottom: 70px;
-}
-.title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #5a54f2;
-  font-weight: 700;
-  line-height: 1.71;
-  letter-spacing: 0.2px;
-  margin-bottom: 10px;
-}
-.main-title {
-  font-size: 36px;
-  font-weight: 700;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-bottom: 10px;
-}
-.content {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
-}
-.cards {
-  font-size: 0px;
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.card-content-container {
-  display: inline-block;
+  max-width: 1200px;
+  margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 25%;
-  vertical-align: top;
 }
-.card-content {
-  padding: 35px 40px;
-  background-color: #fff;
+.item-container {
+  width: 100%;
 }
-.bottom-card {
-  margin-top: 48px;
+.items {
+  background-color: #1da492;
+  padding: 40px;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-size: 0;
 }
-.card-img {
-  margin-bottom: 20px;
-}
-.card-title {
-  color: #252b42;
+.item {
+  display: inline-block;
+  width: 20%;
   font-size: 16px;
-  font-weight: 700;
-  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 20px;
+}
+.inner {
+  height: 200px;
+  background-color: #ebe691;
+}
+.border {
+  border: 5px solid #5e5372;
+  /* border: 5px dotted #5e5372; */
+  /* border: 5px dashed #5e5372; */
+  /* border: 5px double #5e5372; */
+  /* border-top: 5px solid #2fb9e4;
+  border-bottom: 6px dotted #2fb9e4;
+  border-right: 8px dashed #2fb9e4;
+  border-left: 10px double #2fb9e4; */
+}
+.outline {
+  /* outline-style: solid; тут можуть бути такі ж стилі, як і в border
+	outline-width: 5px;
+	outline-color: #2fb9e4; */
+  outline: 5px solid #2fb9e4;
+  /* outline-offset: 6px; */
+  /* outline-offset: -10px; */
+}
+.radius {
+  /* border-radius: 10px; */
+  /* border-radius: 10px 5px 20px 50px ; */
+  border-radius: 50%;
+}
+.shadow {
+  /* box-shadow: 5px 5px 30px black ;
+	box-shadow:  inset 5px 30px black ; */
+  box-shadow: 0px 0px 20px black, inset 0px 0px 5px black;
+}
+.opacity {
+  opacity: 0.5;
+}
+.visibility {
+  visibility: hidden;
 }
 
-.another-color {
-  background-color: #5a54f2;
+.second-section .container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 0;
 }
-.another-color .card-title,
-.another-color .card-text {
-  color: #fff;
+.second-section .container .item {
+  width: 100%;
+  min-height: 800px;
+  font-size: 16px;
+  padding: 40px;
+  /* background-color: #ebe691; */
+  box-shadow: inset 0px 0px 20px black;
+  border-radius: 20px;
+  /* background-image:linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(72,72,207,1) 20%, rgba(17,17,198,1) 59%, rgba(0,212,255,1) 100%); */
+  /* background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  background-attachment: fixed; */
+  /* background-position: 100 200; */
+  /* background-position: top right; */
+  /* background-position: bottom center; */
+  /* background-position: bottom left; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: repeat; */
+  background: #ebe691 url("../img/bg.jpg") center / 80% no-repeat fixed;
 }
-.another-color .card-decoration {
-  background-color: #fff;
+
+.ecobazar-container {
+  max-width: 648px;
+  margin: 0 auto;
+  font-size: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #ffffff;
 }
-.card-decoration {
-  width: 50px;
-  height: 2px;
-  background-color: #e74040;
+.content-container,
+.main-paragrapg {
   margin-bottom: 20px;
 }
-.card-text {
+.card-footer {
+  margin-bottom: 0;
+}
+.content,
+.list-item {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #808080;
+  line-height: 1.5;
+}
+.list-container {
+  margin-bottom: 20px;
+}
+.list-item {
+  min-height: 20px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+  padding-left: 28px;
+  background: url("../img/check.png") 0 0 / 20px 20px no-repeat;
+}
+.home-task {
+  margin-bottom: 20px;
+}
+.hydra-section {
+  background-color: #302c42;
+  padding: 100px 20px;
+}
+.hydra-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 15px;
   font-family: "Montserrat", sans-serif;
+  font-size: 0;
+  background: url(../img/v-7.png) no-repeat center 46px,
+    url(../img/v-8.png) no-repeat center 325px;
+}
+.hydra-container .content-container {
+  display: inline-block;
+  width: 630px;
+  vertical-align: middle;
+}
+.hydra-img {
+  max-width: 100%;
+  margin-right: 110px;
+}
+.main-title,
+.title {
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 1.2;
+}
+.main-title {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.title {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 300;
+  margin-bottom: 36px;
+}
+.text-content {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 30px; /* по макету 28, але в деяких статтях зазанчається, що можна округляти, якщо обговорити з дизайнером*/
+}
+.link {
+  min-width: 214px;
+  min-height: 48px;
+  padding: 17px 40px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  text-transform: uppercase;
+  color: #343045;
+  font-size: 12px;
+  font-weight: 700;
+}
+.hydra-contacts {
+  background-color: #302c42;
+}
+.hydra-contacts-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0;
+}
+.contacts {
+  max-width: 1310px;
+  min-height: 167px;
+  padding: 58px 40px;
+  margin-left: -25px;
+  margin-right: -25px;
+  background: radial-gradient(
+    2900.76% 50.13% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  border-radius: 90px;
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+.contacts-menu li {
+  display: inline-block;
+  min-height: 110px;
+  max-width: 410px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+.item-link {
+  padding-left: 70px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  
+}
+.item-link .item-title,
+.item-text {
+  color: #fff;
+  line-height: 1.2;
+}
+.item-link .item-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.item-link .item-text {
   font-size: 14px;
   font-weight: 400;
-  color: #737373;
-  line-height: 1.4;
-  letter-spacing: 0.2px;
 }
-.footer {
-  background-color: #34b5a4;
+.location {
+  background: url("../img/location-icon.svg");
+  background-size: 70px 70px;
+}
+.phone-number {
+  background: url("../img/phone-call.svg");
+  background-size: 59px 59px;
+}
+.contacts-menu .email {
+  background: url("../img/mail.svg");
+  background-size: 65px 65px;
+  border-right: none;
+}
+.contacts-menu .menu-item {
+  background-position: 25px center;
+  background-repeat: no-repeat;
 }
