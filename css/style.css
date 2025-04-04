@@ -220,8 +220,7 @@ body {
   max-width: 1310px;
   min-height: 167px;
   padding: 58px 40px;
-  margin-left: -25px;
-  margin-right: -25px;
+  margin: 0 auto;
   background: radial-gradient(
     2900.76% 50.13% at 50% 53.89%,
     rgba(58, 52, 86, 0.95) 0%,
@@ -243,7 +242,6 @@ body {
   padding-left: 70px;
   padding-top: 25px;
   padding-bottom: 25px;
-  
 }
 .item-link .item-title,
 .item-text {
