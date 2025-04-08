@@ -156,6 +156,7 @@ footer {
   visibility: visible;
   padding: 25px;
   width: 200px;
+  line-height: 2.5;
 }
 .finish {
   margin: 0 auto;
