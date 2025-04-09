@@ -98,6 +98,8 @@ footer {
 }
 .second-content {
   max-width: 520px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   margin: 0 auto;
 }
 .second-content *:not(:last-child, .list-item) {
